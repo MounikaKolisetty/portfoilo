@@ -4,6 +4,11 @@
 
 ![demo](.github/README_ASSETS/3d-portfolio.png)
 
+## 🌐 Live Demo
+
+Explore the live demonstration of the project:
+[portfolio](https://mounikakolisetty.netlify.app/)
+
 ## 📝 Description
 
 **Portfolio** is a well-designed and fully functional portfolio website that is built with
@@ -91,6 +96,7 @@ reactjs18-3d-portfolio/
 
 <details><summary>Table of Contents</summary>
 
+- [Live Demo](#-live-demo)
 - [Description](#-description)
 - [Technologies Used](#-technologies-used)
 - [Get Started](#-get-started)
