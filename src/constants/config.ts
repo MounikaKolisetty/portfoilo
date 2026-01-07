@@ -13,6 +13,7 @@ type TConfig = {
   hero: {
     name: string;
     p: string[];
+    sourceCodeLink: string[];
   };
   contact: {
     form: {
@@ -46,6 +47,7 @@ export const config: TConfig = {
   hero: {
     name: "Lakshmi Mounika Kolisetty",
     p: ["I develop web applications.", "Let's turn your ideas into reality."],
+    sourceCodeLink: ["https://www.instagram.com/mounika.kolisetty/", "https://github.com/MounikaKolisetty", "https://www.linkedin.com/in/lakshmi-mounika-kolisetty-7b0b11a5/"],
   },
   contact: {
     p: "Get in touch",

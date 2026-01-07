@@ -1,5 +1,8 @@
 import { styles } from "../../constants/styles";
 import { config } from "../../constants/config";
+import { github } from "../../assets";
+import { instagram } from "../../assets";
+import { linkedin } from "../../assets";
 
 const Hero = () => {
   return (
@@ -20,28 +23,47 @@ const Hero = () => {
             {config.hero.p[0]} <br className="hidden sm:block" />
             {config.hero.p[1]}
           </p>
+          <div className="flex gap-6 mt-8">
+            <div
+                onClick={() => window.open(config.hero.sourceCodeLink[0], "_blank")}
+                className="cursor-pointer items-center justify-center rounded-full"
+              >
+              <img
+                src={instagram}
+                alt="instagram"
+                className="h-12 w-12 bg-white p-1 rounded object-contain"
+              />
+            </div>
+            <div
+                onClick={() => window.open(config.hero.sourceCodeLink[1], "_blank")}
+                className="cursor-pointer items-center justify-center rounded-full"
+              >
+              <img
+                src={github}
+                alt="github"
+                className="h-12 w-12 object-contain"
+              />
+            </div>
+            <div
+                onClick={() => window.open(config.hero.sourceCodeLink[2], "_blank")}
+                className="cursor-pointer items-center justify-center rounded-full"
+              >
+              <img
+                src={linkedin}
+                alt="linkedin"
+                className="h-12 w-12 bg-white p-1 rounded object-contain"
+              />
+            </div>
+          </div>
+          <a
+            href="/Lakshmi_Mounika_Kolisetty_Resume.pdf"
+            download
+            className="bg-[#915EFF] shadow-primary w-fit rounded-xl px-20 py-3 font-bold text-white shadow-md outline-none mt-8 inline-block"
+          >
+            Resume
+          </a>
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
-
-      {/* <div className="xs:bottom-10 absolute bottom-32 flex w-full items-center justify-center">
-        <a href="#about">
-          <div className="border-secondary flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="bg-secondary mb-1 h-3 w-3 rounded-full"
-            />
-          </div>
-        </a>
-      </div> */}
     </section>
   );
 };
