@@ -12,22 +12,10 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   enval,
   jobit,
   tripguide,
-  threejs,
   wianco,
   ciai,
   johndeere,
@@ -75,56 +63,46 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
+    title: "Programming Languages",
     icon: css,
+    skills: [
+      "Javascript", "Typescript", "HTML/CSS", "C#"
+    ]
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    title: "Frameworks / Libraries",
+    icon: css,
+    skills: [
+      "React Native", "React JS", "Angular", ".NET", "Three.js", "Framer Motion"
+    ]
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    title: "Styling & UI",
+    icon: css,
+    skills: [
+      "SASS", "LESS", "Bootstrap", "Tailwind CSS", "CSS Grid", "Flexbox",
+    ]
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    title: "Build Tools",
+    icon: css,
+    skills: [
+      "Vite", "Webpack", "Babel", "NPM", "Yarn"
+    ]
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    title: "Tools & Platforms",
+    icon: css,
+    skills: [
+      "Git", "Vercel", "Agile/Scrum", "VS Code", "Andriod Studio"
+    ]
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    title: "Others",
+    icon: css,
+    skills: [
+      "ESLint", "Prettier", "MongoDB Atlas", "MySQL", "RESTful APIs", "GraphQL"
+    ]
   },
 ];
 

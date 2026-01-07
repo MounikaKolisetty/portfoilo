@@ -12,6 +12,7 @@ import Experience from "./sections/Experience";
 import Works from "./sections/Works";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
+import Tech from "./sections/Tech";
 
 export {
   Hero,
@@ -25,4 +26,5 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
+  Tech
 };

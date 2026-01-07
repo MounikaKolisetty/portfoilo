@@ -8,6 +8,7 @@ import {
   Navbar,
   Works,
   StarsCanvas,
+  Tech,
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
@@ -27,6 +28,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Tech />
         <Experience />
         <Works />
         <div className="relative z-0">

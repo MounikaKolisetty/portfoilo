@@ -33,6 +33,7 @@ type TConfig = {
   } & TSection;
   sections: {
     about: Required<TSection>;
+    toolstechnologies: Required<TSection>;
     experience: TSection;
     works: Required<TSection>;
   };
@@ -46,7 +47,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Lakshmi Mounika Kolisetty",
-    p: ["I develop web applications.", "Let's turn your ideas into reality."],
+    p: ["I am a Front-end / Full-Stack Developer.", "Let's turn your ideas into reality."],
     sourceCodeLink: ["https://www.instagram.com/mounika.kolisetty/", "https://github.com/MounikaKolisetty", "https://www.linkedin.com/in/lakshmi-mounika-kolisetty-7b0b11a5/"],
   },
   contact: {
@@ -73,6 +74,11 @@ export const config: TConfig = {
       .Net. I'm a quick learner and collaborate closely with clients to
       create efficient, scalable, and user-friendly solutions that solve
       real-world problems. Let's work together to bring your ideas to life!`,
+    },
+    toolstechnologies: {
+      p: "Skills",
+      h2: "Tools and Technologies",
+      content: "I've worked with a range of technologies in the web development world, from frontend to backend and everything in between"
     },
     experience: {
       p: "What I have done so far",
